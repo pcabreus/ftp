@@ -1,0 +1,36 @@
+{
+    "name": "pcabreus-utils/ftp",
+    "type": "library",
+    "description": "Ftp connector helper",
+    "keywords": [
+        "ftp",
+        "connector",
+        "positibe",
+        "positibelabs"
+    ],
+    "homepage": "https://github.com/pcabreus/ftp",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Pedro Carlos Abreu Jiménez",
+            "email": "pcabreus@gmail.com",
+            "homepage": "https://github.com/pcabreus"
+        },
+        {
+            "name": "PositibeLabs",
+            "homepage": "http://www.positibelabs.com"
+        }
+    ],
+    "require": {
+        "ext-ftp": "*"
+    },
+    "autoload": {
+        "psr-4": {"Pcabreus\\Utils\\Ftp\\": ""}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
